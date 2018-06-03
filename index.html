@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Gray't Homes INC.</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/business-casual.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <div class="heading-container">
+      <div class="placeholder"></div>
+      <div style="position:relative;top:-235px;">
+        <img src="img/test.png" id="pic-1" style="position:absolute;left:-226px;">
+        <img src="img/test.png" id="pic0" style="position:absolute;">
+        <img src="img/test.png" id="pic1" style="position:absolute;left:226px;">
+        <img src="img/test.png" id="pic2" style="position:absolute;left:452px;">
+        <img src="img/test.png" id="pic3" style="position:absolute;left:678px;">
+        <img src="img/test.png" id="pic4" style="position:absolute;left:904px;">
+        <img src="img/test.png" id="pic5" style="position:absolute;left:1130px;">
+        <img src="img/test.png" id="pic6" style="position:absolute;left:1356px;">
+        <img src="img/test.png" id="pic7" style="position:absolute;left:1582px;">
+        <img src="img/test.png" id="pic8" style="position:absolute;left:1808px;">
+        <img src="img/test.png" id="pic9" style="position:absolute;left:2034px;">
+      </div>
+    </div>
+
+    <script>
+        function movePicture(){
+          var picOff = document.getElementById("pic-1");
+          var pic0 = document.getElementById("pic0");
+          var pic1 = document.getElementById("pic1");
+          var pic2 = document.getElementById("pic2");
+          var pic3 = document.getElementById("pic3");
+          var pic4 = document.getElementById("pic4");
+          var pic5 = document.getElementById("pic5");
+          var pic6 = document.getElementById("pic6");
+          var pic7 = document.getElementById("pic7");
+          var pic8 = document.getElementById("pic8");
+          var pic9 = document.getElementById("pic9");
+          picOff.style.transition = "1.8s";
+            pic.style.transition = "1.8s";
+            pic.style.transition = "1.8s";
+            pic.style.transition = "1.8s";
+            pic.style.transition = "1.8s";
+            pic.style.transition = "1.8s";
+            pic.style.transition = "1.8s";
+            pic.style.transition = "1.8s";
+            pic.style.transition = "1.8s";
+            pic.style.transition = "1.8s";
+            pic.style.transition = "1.8s";
+          pic.style.marginLeft = "226px";
+
+        }
+
+        function removeSlide(){
+            var pic = document.getElementById("pic1");
+            pic.classList.remove('slide-left');
+        }
+    </script>
+
+    <button id="test" onclick="movePicture();">Test</button>
+    <button id="test2" onclick="removeSlide();">Test</button>
+
+
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav" style="z-index:1;box-shadow">
+      <div class="container">
+        <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="#">Start Bootstrap</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item active px-lg-4">
+              <a class="nav-link text-uppercase text-expanded" href="index.html">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item px-lg-4">
+              <a class="nav-link text-uppercase text-expanded" href="about.html">Gallery</a>
+            </li>
+            <li class="nav-item px-lg-4">
+              <a class="nav-link text-uppercase text-expanded" href="products.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--
+    <section class="page-section clearfix">
+      <div class="container">
+        <div class="intro">
+          <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="img/intro.jpg" alt="">
+          <div class="intro-text left-0 text-center bg-faded p-5 rounded">
+            <h2 class="section-heading mb-4">
+              <span class="section-heading-upper">Fresh Coffee</span>
+              <span class="section-heading-lower">Worth Drinking</span>
+            </h2>
+            <p class="mb-3">Every cup of our quality artisan coffee starts with locally sourced, hand picked ingredients. Once you try it, our coffee will be a blissful addition to your everyday morning routine - we guarantee it!
+            </p>
+            <div class="intro-button mx-auto">
+              <a class="btn btn-primary btn-xl" href="#">Visit Us Today!</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="page-section cta">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-9 mx-auto">
+            <div class="cta-inner text-center rounded">
+              <h2 class="section-heading mb-4">
+                <span class="section-heading-upper">Our Promise</span>
+                <span class="section-heading-lower">To You</span>
+              </h2>
+              <p class="mb-0">When you walk into our shop to start your day, we are dedicated to providing you with friendly service, a welcoming atmosphere, and above all else, excellent products made with the highest quality ingredients. If you are not satisfied, please let us know and we will do whatever we can to make things right!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    >
+
+    <footer class="footer text-faded text-center py-5">
+      <div class="container">
+        <p class="m-0 small">Copyright &copy; Your Website 2018</p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+
+</html>
