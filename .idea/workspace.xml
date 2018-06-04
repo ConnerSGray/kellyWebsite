@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="edf36eca-e791-4af5-86a1-f167ba04210b" name="Default" comment="">
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
+>>>>>>> 2ceaf80122772e2b521866e646d86410cb6b166f
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -178,15 +181,27 @@
       <updated>1526932122107</updated>
       <workItem from="1526932123546" duration="16629000" />
       <workItem from="1528030855895" duration="1116000" />
+<<<<<<< HEAD
       <workItem from="1528032763359" duration="1275000" />
+=======
+      <workItem from="1528032763359" duration="675000" />
+>>>>>>> 2ceaf80122772e2b521866e646d86410cb6b166f
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="19020000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+=======
+    <option name="totallyTimeSpent" value="18420000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+>>>>>>> 2ceaf80122772e2b521866e646d86410cb6b166f
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10885417" />
       <window_info anchor="bottom" id="TODO" order="6" />
